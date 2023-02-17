@@ -75,6 +75,7 @@ function checklogged() {
     if(logged){
         saveSession(logged, session);
         window.location.href = "home.html";
+        return;
     }
 }
 
